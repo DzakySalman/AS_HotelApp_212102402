@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="74$"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textSize="13sp"
+                android:textColor="#fff">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liburan Mewah dengan Pemandangan Pantai di Hotel Serenity"
+                android:textSize="24sp"
+                android:gravity="center">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Selamat datang di Hotel Serenity, destinasi utama Anda untuk liburan mewah dengan pemandangan pantai yang menakjubkan. Terletak di tepi pantai eksotis, hotel kami menawarkan pengalaman menginap yang tak terlupakan dengan suasana yang tenang dan nyaman, jauh dari hiruk-pikuk kehidupan kota.
+
+Hotel Serenity dirancang untuk memberikan kenyamanan maksimal dengan sentuhan kemewahan modern. Setiap kamar dan suite kami dilengkapi dengan fasilitas terbaik, termasuk balkon pribadi yang menghadap langsung ke lautan biru. Bayangkan bangun setiap pagi dengan suara ombak yang menenangkan, menikmati sarapan di balkon sambil menyaksikan matahari terbit di cakrawala, dan merasakan angin laut yang segar.
+
+Di Hotel Serenity, kami menawarkan berbagai fasilitas kelas atas untuk memenuhi segala kebutuhan Anda. Kolam renang infinity kami yang menakjubkan menghadap langsung ke pantai, memberikan Anda pemandangan yang memukau saat bersantai di tepi kolam. Nikmati layanan spa lengkap kami yang menawarkan berbagai perawatan relaksasi, mulai dari pijat aromaterapi hingga perawatan tubuh yang memanjakan.
+
+Restoran gourmet kami menyajikan hidangan lokal dan internasional yang lezat, dipersiapkan oleh koki-koki berpengalaman. Nikmati makan malam romantis di tepi pantai dengan pemandangan matahari terbenam yang spektakuler, atau cobalah brunch akhir pekan yang menggugah selera dengan pilihan menu yang beragam.
+
+Untuk para petualang, Hotel Serenity menyediakan berbagai aktivitas air yang seru seperti snorkeling, selancar, dan jet ski. Jika Anda lebih suka aktivitas yang lebih santai, berjalan-jalanlah di sepanjang pantai berpasir putih atau jelajahi taman tropis yang indah di sekitar hotel. Kami juga menawarkan paket tur lokal yang eksklusif, memungkinkan Anda menjelajahi keindahan alam dan budaya lokal dengan panduan profesional.
+
+Hotel Serenity juga merupakan tempat yang sempurna untuk berbagai acara khusus. Baik itu pernikahan pantai yang romantis, acara bisnis yang eksklusif, atau perayaan keluarga yang intim, tim kami yang berdedikasi akan memastikan setiap detailnya sempurna.
+
+Pelayanan kami yang ramah dan profesional siap membantu Anda dengan segala kebutuhan selama menginap. Dari penjemputan bandara hingga layanan concierge 24 jam, kami berkomitmen untuk memberikan pelayanan terbaik dan memastikan kenyamanan Anda.
+
+Pesan sekarang dan rasakan pengalaman menginap yang luar biasa di Hotel Serenity. Manjakan diri Anda dengan pemandangan pantai yang memukau, fasilitas mewah, dan layanan terbaik hanya di sini, tempat di mana kenangan indah tercipta. Biarkan Hotel Serenity menjadi rumah kedua Anda di surga tropis yang menawan ini.">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:textColor="#ffffff"
+        android:text="Booking Now!!!">
+    </Button>
+</LinearLayout>S
